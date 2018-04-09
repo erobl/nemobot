@@ -8,3 +8,8 @@ CREATE TABLE IF NOT EXISTS messages (
         is_sticker bool,
         sticker_id TEXT
 );
+
+CREATE TABLE IF NOT EXISTS rate (
+    chatid TEXT PRIMARY KEY,
+    rate float
+);
